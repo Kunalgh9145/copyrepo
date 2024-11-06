@@ -5,3 +5,41 @@ to understand continuous integration install and congigure jenkins and create jo
 jenkins download kar
 ek free style job create kar anni Build periodically check box var click kar and schedule madhe H/2 * * * * ase tak ani 
 add build step madhe echo "hello world" tak
+
+
+
+
+
+delete jenkins
+
+
+
+
+To completely remove Jenkins from your system on Windows, follow these steps:
+
+Step 1: Stop and Uninstall Jenkins Service
+        Open Services:
+        
+        Press Win + R, type services.msc, and press Enter.
+        Find Jenkins in the list, right-click on it, and select Stop.
+        Remove the Jenkins Service:
+        
+        Open a command prompt with administrator privileges.
+        Run the following command to remove the Jenkins service:
+
+        sc delete jenkins
+
+Step 2: Uninstall Jenkins from Control Panel
+        Open Control Panel.
+
+        Go to Programs > Programs and Features.
+
+        If you see Jenkins in the list, right-click on it and select Uninstall.
+
+Step 3: Delete Jenkins Directories and Files
+        Delete Jenkins Installation Directory:
+        By default, this is usually located at C:\Program Files\Jenkins or C:\Program Files (x86)\Jenkins.
+        Delete Jenkins Home Directory:
+        The home directory typically stores all Jenkins configurations, jobs, and plugins. It’s usually located at:
+        C:\ProgramData\Jenkins (for default installations)
+        If you changed the JENKINS_HOME environment variable to a custom path, delete that custom path instead.
