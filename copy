@@ -1,1 +1,7 @@
 to understand continuous integration install and congigure jenkins and create job and schedule at same
+
+
+
+jenkins download kar
+ek free style job create kar anni Build periodically check box var click kar and schedule madhe H/2 * * * * ase tak ani 
+add build step madhe echo "hello world" tak
